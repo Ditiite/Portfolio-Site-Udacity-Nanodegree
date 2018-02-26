@@ -36,6 +36,7 @@
  .project-section-title {
     color: #7d97ad;
  }
+
  .project-pic {   
     display: flex;
     width: 100%;
@@ -47,11 +48,15 @@
     display: inline-block;
     width: calc((100% - 40px) / 3);
     margin-right: 20px;
-    text-align: center;
+    text-align: center; 
+    -webkit-transition: box-shadow 0.3s ease-in-out; /* Safari */
+    transition: box-shadow 0.3s ease-in-out;
  }
  
- .project img {
-    height: 250px;
+ .project img {   
+    border: 1px solid #8999a7;
+    height: 200px;
+    width: 100%;
  }
  
  .project:last-of-type {
@@ -65,5 +70,9 @@
  
  .project-title {
     text-transform: uppercase;
+ }
+
+ .project:hover {
+     box-shadow: 3px 3px 30px silver;
  }
  
