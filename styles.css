@@ -75,12 +75,44 @@
 
  .project-link {     
     overflow-wrap: break-word;
+    text-decoration: none;
  }
 
  .project:hover {
      box-shadow: 3px 3px 30px silver;
  }
  
+/***** FOOTER *****/
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-div {
+    width: 50%;
+}
+.social-media {
+    text-align: right;;
+}
+
+.social-media .fa {
+    text-align: center;
+    margin: 10px;
+    width: 40px;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+    transition: width 1s, height 1s, transform 1s;
+ }
+ .social-media .fa:hover {
+    color: #60516d;
+    width: 40px;
+    height: 40px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+ }
+
+ 
+ /**** MEDIA ****/
+
 @media screen and (max-width: 1000px) {
     .name h1 {
         font-size: 3em;
