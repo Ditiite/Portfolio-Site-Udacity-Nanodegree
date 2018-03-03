@@ -1,5 +1,5 @@
 # Portfolio-Site-Udacity-Nanodegree
-<<<<<<< HEAD
+
 =======
 ## Description
 Given guidelines by Udacity Nanodegree program have to recreate portfolio page by following given design mockup.
@@ -11,4 +11,4 @@ https://review.udacity.com/#!/rubrics/45/view
 
 ### Known issues
 Using IE and Opera projects small images appear in poor quality and when hover over it transforms image a bit. 
->>>>>>> d064ce6e5a2ca2e8f836cb2a16bce2c48047eb3b
+
