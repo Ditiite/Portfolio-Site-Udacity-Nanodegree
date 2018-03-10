@@ -1,75 +1,83 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+        crossorigin="anonymous">
     <title>Portfolio Site Dita Rahmane</title>
 </head>
+
 <body>
-    <main class="container">
+    <main class="container border-bottom">
 
         <!-- Title part of the page with Udacity logo and persons name -->
-        <header class="border-down">
-            <a href="https://eu.udacity.com/">
-                <img class="udacity-symbol" src="images/udacity.png" alt="Udacity symbol letter U">  
-            </a>
-            <div class="name">
-                <h1 class="persons-name">Dita Rahmane</h1>
-                <p class="occupation-name">Front-end developer</p>    
+        <header class="row border-bottom">
+            <div class="col-md-2 col-xs-2">
+                <a href="https://eu.udacity.com/">
+                    <img class="udacity-symbol" src="images/udacity-s.png" alt="Udacity symbol letter U">
+                </a>
             </div>
-        </header> 
+            <div class="col-md-10 col-xs-10">
+                <h1 class="name">Dita Rahmane</h1>
+                <p class="occupation-name">Front-end developer</p>
+            </div>
+        </header>
 
-        <!-- Bigest image with the code -->  
-        <div>
-           <img class="code-pic" src="https://fthmb.tqn.com/P7uU1uXj8SNTZNWaYJanxEZYixI=/768x0/filters:no_upscale()/GettyImages-182798262-57dc02755f9b58651672354f.jpg" alt="Image with HTML code">
+        <!-- Bigest image with the code -->
+        <div class="img-big">
+            <img class="img-big img-responsive" src="images/code.png" alt="Image with HTML code">
         </div>
 
         <!-- 3 smaller images with the links to the other projects -->
-        <section class="border-down">
+        <div class="row">
             <h2 class="project-section-title">Featured work</h2>
-            <div class="project-pic">
-                <div class="project">
-                <a class="project-link" href="https://github.com/Ditiite/-code-challenge---11.12 " target="_blank">
-                    <img src="images/santa-site.png" alt="Image from project of Santa claus web site">
-                    <h3 class="project-title">Santa site</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </a>
+            <div class="row">
+                <div class="col-12 col-md-4 col-sm-4">
+                    <a class="project-link" href="https://github.com/Ditiite/-code-challenge---11.12 " target="_blank">
+                        <img class="img-small" src="images/santa-site.png" alt="Santa Claus">
+                        <h3 class="project-title">Santa site</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </a>
                 </div>
-                <div class="project">
-                <a class="project-link" href="https://github.com/Ditiite/Pixel-Art-Macker" target="_blank">
-                    <img src="images/pixel.png" alt="Image from Pixel art macker project site">
-                    <h3 class="project-title">Pixel Art Macker</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </a>
+                <div class="col-12 col-md-4 col-sm-4">
+                    <a class="project-link" href="https://github.com/Ditiite/Pixel-Art-Macker" target="_blank">
+                        <img class="img-small" src="images/pixel.png" alt="Pixel image">
+                        <h3 class="project-title">Pixel Art Macker</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </a>
                 </div>
-                <div class="project">
-                <a class="project-link" href="https://github.com/Ditiite/shopping-cart" target="_blank">
-                    <img src="images/shopping-cart.png" alt="Image from project of creating shopping cart">
-                    <h3 class="project-title">Shopping cart</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </a>
+                <div class="col-12 col-md-4 col-sm-4">
+                    <a class="project-link" href="https://github.com/Ditiite/shopping-cart" target="_blank">
+                        <img class="img-small" src="images/shopping-cart.png" alt="Shopping cart">
+                        <h3 class="project-title">Shopping cart</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+    </main>
 
-        <footer class="footer-flex">           
-            <div class="footer-div">
+    <!-- Footer -->
+    <footer class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-12">
                 <p>Design given by Udacity</p>
                 <p>Created by Dita</p>
-            </div>           
-            <div class="footer-div social-media">
+            </div>
+            <div class="col-md-6 col-sm-6 col-12 social-media">
                 <a href="https://www.facebook.com" target="_blank">
                     <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
                 </a>
                 <a href="https://twitter.com/?lang=en" target="_blank">
                     <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com" target="_blank" >
+                <a href="https://github.com" target="_blank">
                     <i class="fa fa-github fa-2x" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.linkedin.com/uas/login" target="_blank">
@@ -79,7 +87,7 @@
                     <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 </a>
             </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
 </body>
 </html>
